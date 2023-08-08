@@ -2,7 +2,7 @@
 - 👀 I’m interested in Frontend Development
 - 🌱 I’m currently learning Backend Development and Machine Learning
 - 💞️ I’m looking to collaborate on some part time jobs that could help me achieve my goal in developing my skills and learn some better technologies
-- 📫 How to reach me : Email: elprincemohamed2001@gmail.com 
+- 📫 How to reach me -> Email: Hassan.MS2512@gmail.com 
 
 <!---
 HassanSalama2001/HassanSalama2001 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
