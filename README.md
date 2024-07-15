@@ -1,6 +1,6 @@
-- 👋 Hi, I’m Hassan Salama, a 3rd year Computer Science student
-- 👀 I’m interested in Frontend Development
-- 🌱 I’m currently learning Backend Development and Machine Learning
+- 👋 Hi, I’m Hassan Salama, a Fresh Graduate Computer Science student
+- 👀 I’m interested in Backend Development
+- 🌱 I’m currently learning AI and Machine Learning
 - 💞️ I’m looking to collaborate on some part time jobs that could help me achieve my goal in developing my skills and learn some better technologies
 - 📫 How to reach me -> Email: Hassan.MS2512@gmail.com 
 
