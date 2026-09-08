@@ -1,0 +1,38 @@
+[
+  {
+    "id": "n8n-branchflow",
+    "name": "n8n-branchflow",
+    "repo": "HassanSalama2001/n8n-branchflow",
+    "visibility": "private",
+    "status": "in-progress",
+    "description": "Document workflow app (React + Express/Postgres) with a real n8n webhook integration for OCR intake and AML screening.",
+    "tags": ["n8n", "automation", "fullstack"]
+  },
+  {
+    "id": "hassan-ai-flow",
+    "name": "hassan-ai-flow",
+    "repo": "HassanSalama2001/hassan-ai-flow",
+    "visibility": "private",
+    "status": "in-progress",
+    "description": "Personal portfolio site presenting automation/AI case studies.",
+    "tags": ["portfolio", "react"]
+  },
+  {
+    "id": "nexstream-ai",
+    "name": "nexstream-ai",
+    "repo": "HassanSalama2001/nexstream-ai",
+    "visibility": "private",
+    "status": "in-progress",
+    "description": "AI content-repurposing tool built on Next.js, calling OpenAI GPT-4o and Groq (Llama 3.3) to generate platform-specific content from a single input.",
+    "tags": ["ai", "openai", "nextjs"]
+  },
+  {
+    "id": "dark-split-scan",
+    "name": "dark-split-scan",
+    "repo": "HassanSalama2001/dark-split-scan",
+    "visibility": "private",
+    "status": "in-progress",
+    "description": "OCR document-intake tool piping uploads through an n8n webhook pipeline.",
+    "tags": ["n8n", "ocr", "automation"]
+  }
+]

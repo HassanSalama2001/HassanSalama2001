@@ -1,0 +1,38 @@
+name: Update project status table
+
+on:
+  push:
+    paths:
+      - projects.json
+      - scripts/update-readme.mjs
+  schedule:
+    - cron: "0 6 * * 1" # weekly, Monday 06:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Regenerate README sections
+        run: node scripts/update-readme.mjs
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- README.md; then
+            echo "No changes."
+          else
+            git add README.md
+            git commit -m "chore: auto-update project status table"
+            git push
+          fi
