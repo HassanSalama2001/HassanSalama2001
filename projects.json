@@ -9,6 +9,15 @@
     "tags": ["ocr", "mcp", "python", "computer-vision"]
   },
   {
+    "id": "arise-gym-app",
+    "name": "arise-gym-app",
+    "repo": "HassanSalama2001/arise-gym-app",
+    "visibility": "public",
+    "status": "shipped",
+    "description": "Personal workout and nutrition tracker PWA (React + Supabase), installable to your phone home screen.",
+    "tags": ["react", "supabase", "pwa"]
+  },
+  {
     "id": "n8n-branchflow",
     "name": "n8n-branchflow",
     "repo": "HassanSalama2001/n8n-branchflow",
