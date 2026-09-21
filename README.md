@@ -54,7 +54,9 @@ Currently job-searching for **AI Engineer / AI Agent Engineer** roles.
 _Auto-generated from [`projects.json`](./projects.json) on every push and weekly — nothing below is hand-typed._
 
 <!-- PROJECT-STATUS:START -->
-_Nothing public yet — actively cleaning up private repos before they ship here. See "Currently building" below for what's in progress._
+| Project | Status | Last updated |
+|---|---|---|
+| [Egyptian-National-ID-Open-Source](https://github.com/HassanSalama2001/Egyptian-National-ID-Open-Source) | Shipped | 2026-09-20 |
 <!-- PROJECT-STATUS:END -->
 
 ## Currently building
