@@ -57,6 +57,7 @@ _Auto-generated from [`projects.json`](./projects.json) on every push and weekly
 | Project | Status | Last updated |
 |---|---|---|
 | [Egyptian-National-ID-Open-Source](https://github.com/HassanSalama2001/Egyptian-National-ID-Open-Source) | Shipped | 2026-09-20 |
+| [arise-gym-app](https://github.com/HassanSalama2001/arise-gym-app) | Shipped | 2026-07-18 |
 <!-- PROJECT-STATUS:END -->
 
 ## Currently building
