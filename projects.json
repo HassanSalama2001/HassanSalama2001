@@ -1,5 +1,14 @@
 [
   {
+    "id": "egyptian-national-id-open-source",
+    "name": "Egyptian-National-ID-Open-Source",
+    "repo": "HassanSalama2001/Egyptian-National-ID-Open-Source",
+    "visibility": "public",
+    "status": "shipped",
+    "description": "Local, open-source OCR pipeline for Egyptian National ID cards — CLI, HTTP API, MCP server and Python SDK. No cloud APIs, nothing leaves your machine.",
+    "tags": ["ocr", "mcp", "python", "computer-vision"]
+  },
+  {
     "id": "n8n-branchflow",
     "name": "n8n-branchflow",
     "repo": "HassanSalama2001/n8n-branchflow",
