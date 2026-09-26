@@ -39,26 +39,31 @@ function replaceBetween(source, marker, replacement) {
 
 async function main() {
   const projects = JSON.parse(await readFile(PROJECTS_PATH, "utf8"));
-  const publicProjects = projects.filter((p) => p.visibility === "public");
+  const listed = projects.filter(
+    (p) => p.visibility === "public" || p.status === "shipped"
+  );
   const privateInProgress = projects.filter(
     (p) => p.visibility !== "public" && p.status === "in-progress"
   );
 
   let statusBlock;
-  if (publicProjects.length === 0) {
+  if (listed.length === 0) {
     statusBlock =
       "_Nothing public yet — actively cleaning up private repos before they ship here. " +
       'See "Currently building" below for what\'s in progress._';
   } else {
     const rows = await Promise.all(
-      publicProjects.map(async (p) => {
-        const updated = (await fetchLastUpdated(p.repo)) ?? "—";
-        return `| [${p.name}](https://github.com/${p.repo}) | ${STATUS_LABEL[p.status] ?? p.status} | ${updated} |`;
+      listed.map(async (p) => {
+        const isPublic = p.visibility === "public";
+        const updated = isPublic ? ((await fetchLastUpdated(p.repo)) ?? "—") : "—";
+        const name = isPublic ? `[${p.name}](https://github.com/${p.repo})` : `${p.name} _(private repo)_`;
+        const live = p.url ? `[Live](${p.url})` : "—";
+        return `| ${name} | ${STATUS_LABEL[p.status] ?? p.status} | ${live} | ${updated} |`;
       })
     );
     statusBlock =
-      "| Project | Status | Last updated |\n" +
-      "|---|---|---|\n" +
+      "| Project | Status | Live | Last updated |\n" +
+      "|---|---|---|---|\n" +
       rows.join("\n");
   }
 

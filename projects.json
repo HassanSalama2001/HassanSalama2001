@@ -18,6 +18,35 @@
     "tags": ["react", "supabase", "pwa"]
   },
   {
+    "id": "inside-the-model",
+    "name": "Inside the Model",
+    "repo": "HassanSalama2001/Inside-The-Model",
+    "visibility": "private",
+    "status": "shipped",
+    "url": "https://inside-the-model-blue.vercel.app/",
+    "description": "Scroll-driven 3D journey through a real language model (SmolLM2-135M) running in the browser.",
+    "tags": ["llm", "threejs", "education"]
+  },
+  {
+    "id": "hassan-ai-flow",
+    "name": "Portfolio site",
+    "repo": "HassanSalama2001/hassan-ai-flow",
+    "visibility": "private",
+    "status": "shipped",
+    "url": "https://hassan-abdelaziz.vercel.app/",
+    "description": "Personal portfolio site presenting automation/AI case studies.",
+    "tags": ["portfolio", "react"]
+  },
+  {
+    "id": "hurr-slm",
+    "name": "Hurr-SLM",
+    "repo": "HassanSalama2001/Hurr-SLM",
+    "visibility": "public",
+    "status": "in-progress",
+    "description": "Open-source Arabic-only small language model built from scratch as a learning project; early-stage prototype, no trained model yet.",
+    "tags": ["llm", "arabic", "pretraining"]
+  },
+  {
     "id": "n8n-branchflow",
     "name": "n8n-branchflow",
     "repo": "HassanSalama2001/n8n-branchflow",
@@ -25,15 +54,6 @@
     "status": "in-progress",
     "description": "Document workflow app (React + Express/Postgres) with a real n8n webhook integration for OCR intake and AML screening.",
     "tags": ["n8n", "automation", "fullstack"]
-  },
-  {
-    "id": "hassan-ai-flow",
-    "name": "hassan-ai-flow",
-    "repo": "HassanSalama2001/hassan-ai-flow",
-    "visibility": "private",
-    "status": "in-progress",
-    "description": "Personal portfolio site presenting automation/AI case studies.",
-    "tags": ["portfolio", "react"]
   },
   {
     "id": "nexstream-ai",
