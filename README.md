@@ -56,7 +56,7 @@ _Auto-generated from [`projects.json`](./projects.json) on every push and weekly
 <!-- PROJECT-STATUS:START -->
 | Project | Status | Live | Last updated |
 |---|---|---|---|
-| [Egyptian-National-ID-Open-Source](https://github.com/HassanSalama2001/Egyptian-National-ID-Open-Source) | Shipped | — | 2026-09-20 |
+| [Egyptian-National-ID-Open-Source](https://github.com/HassanSalama2001/Egyptian-National-ID-Open-Source) | Shipped | — | 2026-09-28 |
 | [arise-gym-app](https://github.com/HassanSalama2001/arise-gym-app) | Shipped | — | 2026-09-23 |
 | Inside the Model _(private repo)_ | Shipped | [Live](https://inside-the-model-blue.vercel.app/) | — |
 | Portfolio site _(private repo)_ | Shipped | [Live](https://hassan-abdelaziz.vercel.app/) | — |
